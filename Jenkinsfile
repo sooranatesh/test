@@ -1,0 +1,11 @@
+pipeline {
+  agent any
+  stages {
+    stage('script') {
+      steps {
+        sh 'mkdir natesh'
+      }
+    }
+
+  }
+}
